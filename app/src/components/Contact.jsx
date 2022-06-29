@@ -5,7 +5,7 @@ const Contact = (_props) => {
     <section className="contact-section">
       <div className="contact-container">
         <h1>Contato</h1>
-        <h2>Entre em contato comigo, vamos conversar sobre a sua nova peça!</h2>
+        <p>Entre em contato comigo, vamos conversar sobre a sua nova peça!</p>
         <form action="">
           <input type="text" placeholder="Escreva seu nome..."/>
           <input type="email" placeholder="Escreva seu melhor e-mail..." />

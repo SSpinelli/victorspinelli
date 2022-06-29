@@ -27,6 +27,8 @@ header {
 .header-container nav ul {
   display: flex;
   list-style: none;
+  justify-content: center;
+  align-items: center;
 }
 
 .header-container nav ul li {
@@ -37,5 +39,17 @@ header {
 }
 
 .header-container nav ul li:hover {
+  color: #F0D290;
+}
+
+.header-container nav ul li:last-child {
+  border: 2px solid #DE834D;
+  border-radius: 5px;
+  padding: 8px;
+  color: #DE834D;
+}
+
+.header-container nav ul li:last-child:hover {
+  border: 2px solid #F0D290;
   color: #F0D290;
 }

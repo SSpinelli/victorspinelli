@@ -16,7 +16,7 @@ main {
   align-items: center;
   justify-content: center;
   max-width: 1200px;
-  min-height: 500px;
+  height: 700px;
   margin: 0 auto;
 }
 
@@ -39,6 +39,7 @@ main {
   font-size: 50px;
   color: #E6D5B8;
   text-shadow: 7px 2px rgba(0, 0, 0, 0.5);
+  margin: 0;
 }
 
 
@@ -60,10 +61,27 @@ main {
   cursor: pointer;
 }
 
+.banner-text button:hover {
+  background-color: #E6D5B8;
+}
+
+/* Fenearte */
+
+.fenearte {
+  display: flex;
+  background-color: #781d42;
+  color: #E6D5B8;
+  font-size: 20px;
+  font-weight: bold;
+  justify-content: center;
+  align-items: center;
+  height: 70px;
+}
+
 /* ABOUT */
 
 .about-section {
-  height: 600px;
+  height: 700px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -72,7 +90,7 @@ main {
 }
 
 .about-section h1 {
-  margin: -50px;
+  margin: 0;
   font-size: 44px;
   color: #E6D5B8;
 }
@@ -87,8 +105,7 @@ iframe {
   align-items: center;
   justify-content: center;
   max-width: 1200px;
-  min-height: 500px;
-  margin: 0 auto;
+  margin: 40px auto;
 }
 
 .about-container div {
@@ -108,7 +125,8 @@ iframe {
 
 .contact-section {
   background-color: #E6D5B8;
-  height: 600px;
+  height: 700px;
+  display: flex;
 }
 
 .contact-container {
@@ -117,8 +135,18 @@ iframe {
   align-items: center;
   justify-content: center;
   max-width: 1200px;
-  min-height: 500px;
   margin: 0 auto;
+}
+
+.contact-container h1 {
+  font-size: 44px;
+  font-weight: bold;
+  margin: 0 auto;
+}
+
+.contact-container p {
+  font-size: 22px;
+  margin-bottom: 40px;
 }
 
 form {
@@ -138,7 +166,7 @@ input {
   font-size: 16px;
   font-weight: bold;
   color: #1B1A17;
-  padding-left: 15px;
+  padding-left: 5px;
 }
 
 input::placeholder {
@@ -153,10 +181,10 @@ textarea {
   box-shadow: 1px 1px rgba(0, 0, 0, 0.5);
   border: 2px solid #1B1A17;
   border-radius: 5px;
-  padding-left: 15px;
   font-size: 16px;
   font-weight: bold;
   color: #1B1A17;
+  padding-left: 5px;
 }
 
 textarea::placeholder {
@@ -173,4 +201,10 @@ form button {
   margin: 0 auto;
   cursor: pointer;
   font-size: 20px;
+  font-weight: bold;
+}
+
+form button:hover {
+  background-color: #781d42;
+  color: #E6D5B8;
 }

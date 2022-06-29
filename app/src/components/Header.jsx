@@ -9,9 +9,8 @@ const Header = (_props) => {
         <nav>
           <ul>
             <li>Sobre</li>
-            <li>Fenearte</li>
-            <li>Catálogo</li>
             <li>Contato</li>
+            <li>Ir para o Catálogo</li>
           </ul>
         </nav>
       </div>
