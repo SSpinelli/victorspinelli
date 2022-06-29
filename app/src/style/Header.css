@@ -1,0 +1,41 @@
+header {
+  background-color: #1B1A17;
+}
+
+.header-container {
+  height: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 7.4rem;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.header-container h1 {
+  font-family: 'Caveat', cursive;
+  font-size: 44px;
+  color: #DE834D;
+  margin: 0;
+}
+
+.header-container h1 span {
+  font-family: 'IBM Plex mono', monospace;
+  font-weight: 100;
+}
+
+.header-container nav ul {
+  display: flex;
+  list-style: none;
+}
+
+.header-container nav ul li {
+  color: #DE834D;
+  margin: 15px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.header-container nav ul li:hover {
+  color: #F0D290;
+}
