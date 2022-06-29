@@ -1,15 +1,11 @@
-import './App.css';
-import Footer from './components/Footer';
-import Header from './components/Header';
-import Main from './components/Main';
+import { BrowserRouter } from 'react-router-dom';
+import MyRoutes from './routes';
 
 function App() {
   return (
-    <div className='divpai'>
-      <Header />
-      <Main />
-      <Footer />
-    </div>
+    <BrowserRouter>
+      <MyRoutes />
+    </BrowserRouter>
   );
 }
 

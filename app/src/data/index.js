@@ -10,6 +10,7 @@ const data = [
       thumbnail: folha1,
       pictures: []
     },
+    category: 'Escultura',
     preco: 89.90,
     quantity: 5,
     color: 'Azul',
@@ -28,6 +29,7 @@ const data = [
       thumbnail: folha3,
       pictures: []
     },
+    category: 'Escultura',
     preco: 89.90,
     quantity: 5,
     color: 'Azul',
@@ -46,6 +48,7 @@ const data = [
       thumbnail: folhaAzul,
       pictures: []
     },
+    category: 'Escultura',
     preco: 89.90,
     quantity: 5,
     color: 'Azul',
@@ -64,6 +67,7 @@ const data = [
       thumbnail: folhaDourada,
       pictures: []
     },
+    category: 'Escultura',
     preco: 89.90,
     quantity: 5,
     color: 'Azul',
@@ -79,9 +83,10 @@ const data = [
   { 
     name: 'Quadro Folha Branca com Dourado',
     imagens: {
-      thumbnail: '',
+      thumbnail: folhaDourada,
       pictures: []
     },
+    category: 'Escultura',
     preco: 89.90,
     quantity: 5,
     color: 'Azul',
@@ -97,9 +102,10 @@ const data = [
   { 
     name: 'Quadro Folha Branca com Dourado',
     imagens: {
-      thumbnail: '',
+      thumbnail: folhaDourada,
       pictures: []
     },
+    category: 'Escultura',
     preco: 89.90,
     quantity: 5,
     color: 'Azul',
@@ -115,9 +121,10 @@ const data = [
   { 
     name: 'Quadro Folha Branca com Dourado',
     imagens: {
-      thumbnail: '',
+      thumbnail: folhaDourada,
       pictures: []
     },
+    category: 'Escultura',
     preco: 89.90,
     quantity: 5,
     color: 'Azul',
