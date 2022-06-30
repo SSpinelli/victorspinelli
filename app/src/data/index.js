@@ -5,7 +5,7 @@ import folhaDourada from '../imagens/conjunto-dourado.jpeg'
 
 const data = [
   { 
-    name: 'Quadro Folha Branca com Dourado',
+    name: 'Quadro Folha Branca com Prata',
     imagens: {
       thumbnail: folha1,
       pictures: []
@@ -24,7 +24,7 @@ const data = [
     homepage: true
   },
   { 
-    name: 'Quadro Folha Branca com Dourado',
+    name: 'Quadro Folha Branca com Azul',
     imagens: {
       thumbnail: folha3,
       pictures: []
@@ -43,7 +43,7 @@ const data = [
     homepage: true
   },
   { 
-    name: 'Quadro Folha Branca com Dourado',
+    name: 'Quadro Folha Branca com Verde',
     imagens: {
       thumbnail: folhaAzul,
       pictures: []
@@ -62,7 +62,7 @@ const data = [
     homepage: true
   },
   { 
-    name: 'Quadro Folha Branca com Dourado',
+    name: 'Quadro Folha Branca com cinza',
     imagens: {
       thumbnail: folhaDourada,
       pictures: []
@@ -81,14 +81,14 @@ const data = [
     homepage: true
   },
   { 
-    name: 'Quadro Folha Branca com Dourado',
+    name: 'Quadro Folha Branca com branco',
     imagens: {
       thumbnail: folhaDourada,
       pictures: []
     },
     category: 'Escultura',
     preco: 89.90,
-    quantity: 5,
+    quantity: 0,
     color: 'Azul',
     description: 'Colar de flores bla bla bla bla',
     measurements: {
@@ -107,7 +107,7 @@ const data = [
     },
     category: 'Escultura',
     preco: 89.90,
-    quantity: 5,
+    quantity: 0,
     color: 'Azul',
     description: 'Colar de flores bla bla bla bla',
     measurements: {
