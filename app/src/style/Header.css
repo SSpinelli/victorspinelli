@@ -2,6 +2,15 @@ header {
   background-color: #1B1A17;
 }
 
+a {
+  text-decoration: none;
+  color: #DE834D;
+}
+
+a:hover {
+  color: #F0D290;
+}
+
 .header-container {
   height: 100px;
   display: flex;

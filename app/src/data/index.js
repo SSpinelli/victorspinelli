@@ -106,7 +106,7 @@ const data = [
       pictures: []
     },
     category: 'Escultura',
-    preco: 89.90,
+    preco: 4000,
     quantity: 0,
     color: 'Azul',
     description: 'Colar de flores bla bla bla bla',

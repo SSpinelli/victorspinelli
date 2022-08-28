@@ -3,7 +3,7 @@ import React from "react";
 
 const About = (_props) => {
   return (
-    <section className="about-section">
+    <section className="about-section" id="sobre">
       <h1>Sobre</h1>
       <div className="about-container">
         <div>
